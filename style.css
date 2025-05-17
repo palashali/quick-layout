@@ -84,6 +84,7 @@ margin-left: 25px;
 /* project section */
 
 .project{
+     margin: 70px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
  
