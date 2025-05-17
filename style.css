@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin: 0px 100px 0px 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    height: 80px;
+    align-items: center;
+    box-shadow: 10px 20px 40px 15px gray;
+}
+.logo{
+    color: red;
+}
+
+
+.logo img{
+    width: 20%;
+    margin: 0px 0px 0px -30px;
+
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav ul li{
+display: inline;
+margin-left: 25px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #3b506c;
+    transition: all 0.5s;
+  
+}
+
+.nav ul li a:hover{
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 10px 30px;
+    font-size: 20px;
+
+    background-color: #cfe90b;
+    color: red;
+}
+
+/* ===== Hero section start here ===== */
+
+.hero{
+    text-align: center;
+
+
+}
+
+.hero span{
+    color: #0e66ff;
+}
+.hero h1{
+    color: #3b506c;
+    font-size: 80px;
+    margin: 110px 0px 10px 0px;
+
+}
+.hero p{
+    font-size: 25px;
+    margin: 0px 0px 20px 0px;
+
+}
+.hero img{
+    width: 50%;
+
+}
+
+
+/* project section */
+
+.project{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.kk{
+    text-align: right;
+    font-size: 50px;
+    color: red; !important
+    margin-bottom: 0;
+    
+
+}
+
+.box p{
+    font-size: 20px;
+    text-align: right;
+   
+}
+
+.box{
+width: 48%;
+}
+
+.box h2{
+    font-size: 40px;
+}
+
+/* blogs section start */
+
+
+.blog{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px 50px 50px;
+}
+
+.blog-box{
+    width: 32%;
+    box-shadow: 14px 10px 42px 8px gray;
+    border-radius: 5px gray;
+
+}
+
+.blog img{
+    width: 96%;
+    height: 220px;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+   
+
+}
+.blog-box h3{
+    font-weight: 800;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+
+}
+.blog-box p{
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.blog-box:hover{
+    background-color: #6397ef4d;
+    transition: 0.3s;
+    
+    
+}
+
+/* footer start */
+
+footer{
+    background-color: #055ef9d7;
+    text-align: center;
+    height: 200px;
+    margin: 100px 0px 0px 0px;
+}
+
+footer h3{
+    
+    padding: 30px 0px 0px 0px;
+    color: azure;
+}
+
+footer p{
+  
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
